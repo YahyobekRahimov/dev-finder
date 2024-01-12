@@ -4,5 +4,26 @@
 
 @layer base {
    :root {
+      /* Light mode colors */
+      --text-primary: #4b6a9b;
+      --text-secondary: #2b3442;
+      --text-tertiary: #0079ff;
+
+      --bg-primary: #f6f8ff;
+      --bg-secondary: #fefefe;
+
+      /* Unchanging colors */
+
+      --red: #f74646;
+      --light-blue: #60abff;
+      
+   }
+   .dark {
+      --text-primary: white;
+      --text-secondary: white;
+      --text-tertiary: #0079ff;
+
+      --bg-primary: #141d2f;
+      --bg-secondary: #1e2a47;
    }
 }

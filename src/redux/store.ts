@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import devSlice from "./devSlice";
+import appSlice from "./appSlice";
 
 const store = configureStore({
    reducer: {
       devSlice: devSlice,
+      theme: appSlice,
    },
 });
 
